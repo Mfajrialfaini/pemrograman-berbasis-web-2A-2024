@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: white;
+    background-image: url(BG.png);
+    background-size: 2000px;
+}
+
+.container{
+    margin: 0px;
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+img{
+    width: 100px;
+    cursor: pointer;
+}
+
+span{
+    color:  red;
+}
+ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+ul li a:hover{
+    color: red;
+    transition: 0.9s;
+}
+.beli {
+    background-color: red;
+    color: white;
+    border: 5px solid white;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 30px; 
+}
+.beli:hover{
+    transform: scale(1.4);
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-right: 2%;
+    padding-left: 2%;
+    padding: 10px;
+    margin: 10px;
+    background-color: #191919;
+    border-top: 3px solid red;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+    border-left: 2px solid red;
+    flex: 1;
+    max-width: 2500px;
+    width: 100%;
+    height: 80px;
+    border-radius: 10px;
+}
+.content{
+    background-color: #191919;
+    max-width: 2500px;
+    width: 1490px;
+    height: 1000px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #191919;
+    max-width: 2000px;
+    width: 5000px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;   
+    border-bottom: 5px solid red;
+
+}
+.footer i{
+    justify-content: center;
+    align-items: center;
+}
+.bawah{
+    font-size: 30px;
+    color: blue;
+}
+.bawah:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* MENU KONTEN */
+
+div .AyamBakar{
+    color: aqua;
+    position: center;
+}
+.Bakar{
+    color: blue;
+}
+.menu1{
+    padding: 30px 50px;
+}
+.menu1 img{
+    width: 200px;
+}
+nav .menu1{
+    width: 90px;
+}
+.order{ 
+    display: flex; 
+    align-items: end;
+}
+div .halaman{
+    padding: 20px;
+}
+.halaman a{
+    cursor: pointer;
+    margin: 20px;
+    font-size:25px;
+    color: white;
+}
+.halaman a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.tentang{
+    color: white;
+    font-style: italic;
+}
+.tentang a{
+    color: red;
+    cursor: pointer;
+}
+.tentang a:hover{
+    color: white;
+    transition: 0.5s;
+}
