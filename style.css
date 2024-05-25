@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;  
+    font-family: "Schibsted Grotesk", sans-serif;
+        
+        
+}
+
+
+/* Navbar */
+#navbar{
+    background: #f9f9f9f9;
+}
+#logo{
+    font-size: 36px;
+    font-weight: 550;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+}
+#logo span{
+    color: blue;
+}
+
+
+/* Tombol menu */
+.navbar-toggler span{
+    color: black;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+.nav-item .nav-link:hover{
+    background: blue;
+    color: white;
+}
+
+#navbar form button{
+    background: blue;
+    color: white;
+    border: none;
+}
+.ul .li{
+    padding: 50px;
+}
+
+
+/* Home */
+.Home{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(bg1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.Home .Content{
+    text-align: center;
+    padding-top: 200px;   
+}
+.Home .Content h5{
+    color: white;
+    font-size: 38px;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px black;
+}
+.Home .Content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+.change-content::after{
+    content: '';
+    color: blue;
+    text-shadow: 0px 1px 1px black;
+    animation: changetxt 15s infinite linear;
+}
+@keyframes changetxt{
+    0% {Content:"Buku Sekolah"}
+    10% {Content:"Kamus Bhs Inggris"}
+    20% {Content:"Buku Matematika"}
+    30% {Content:"Kamus B Arab"}
+    40% {Content:"Buku B Indonesia"}
+    50% {Content:"Buku Ipa"}
+    60% {Content:"Buku Fisika"}
+    70% {Content:"Buku Kimia"}
+    80% {Content:"Buku Biologi"}
+    90% {Content:"Komik"}
+    100% {Content:"Pepak B jawa"}
+}
+
+.Home .Content p{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+}
+
+
+/* isi */
+
+.book{
+    background: white;
+    padding: 50px;
+}
+
+.main-text h1{
+    text-align: center;
+    padding: 0px 1px 1px black;
+    font-weight: 600;
+}
+
+.main-text h1 span{
+    color: blue;
+}
+
+.book .card{
+    border-radius: 10px;
+    box-shadow: 0px 5px -6px black;
+}
+.book .row{
+    margin-top: 30px;
+}
+.book form input{
+    padding: 10px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 1px black;
+}
+.book form textarea{
+    border: none;
+    border-radius: 10px;
+    resize: none;
+    box-shadow: 0px 5px 5px 1px black;
+}
+.book .submit{
+    width: 100px;
+    font-size: 16px;
+    font-weight: 550;
+    background: blue;
+    color: white;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+.book .submit:hover{
+    width: 150px;
+    font-size: 18px;
+}
+
+
+/* Pilihan */
+.main-txt{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+}
+.main-txt h1 span{
+    color: blue;
+}
+.packages .card{
+    border: 5px;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1)0px 4px 12px;
+}
+.packages .card img{
+    border-radius: 5px;
+}
+.packages .card .card-body{
+    background: transparent;
+}
+.packages .card .card-body h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.packages .card .card-body p{
+    font-size: 15px;
+}
+.checked{
+    color: yellow;
+}
+.star i{
+    font-size: 15px;
+}
+.packages .card .card-body a{
+    padding: 10px;
+    text-decoration: none;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    
+}
+.packages .card .card-body a:hover{
+    color: white;
+    background-color: red;
+    transition: 0.5s;
+}
+
+.col-sm-3{
+    height: 100px;
+    width: 100px;
+}
+.Buku{
+    text-align: right;
+}
